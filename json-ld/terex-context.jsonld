@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "terex": "https://www.terex.com/#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "ConstructionEquipment": {
+      "@id": "terex:ConstructionEquipment",
+      "@type": "@id",
+      "rdfs:comment": "A piece of construction or industrial equipment"
+    },
+    "FleetAsset": {
+      "@id": "terex:FleetAsset",
+      "@type": "@id",
+      "rdfs:comment": "A tracked fleet asset with telematics data"
+    },
+    "TelematicsReading": {
+      "@id": "terex:TelematicsReading",
+      "@type": "@id",
+      "rdfs:comment": "A telematics data reading from a connected machine"
+    },
+    "MaintenanceAlert": {
+      "@id": "terex:MaintenanceAlert",
+      "@type": "@id",
+      "rdfs:comment": "A predictive maintenance alert for a machine"
+    },
+
+    "Product": "schema:Product",
+    "Organization": "schema:Organization",
+    "Vehicle": "schema:Vehicle",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "serialNumber": {
+      "@id": "schema:serialNumber",
+      "@type": "xsd:string"
+    },
+    "model": {
+      "@id": "schema:model",
+      "@type": "xsd:string"
+    },
+    "manufacturer": {
+      "@id": "schema:manufacturer",
+      "@type": "@id"
+    },
+    "location": {
+      "@id": "schema:location",
+      "@type": "@id"
+    },
+    "latitude": {
+      "@id": "schema:latitude",
+      "@type": "xsd:decimal"
+    },
+    "longitude": {
+      "@id": "schema:longitude",
+      "@type": "xsd:decimal"
+    },
+    "engineHours": {
+      "@id": "terex:engineHours",
+      "@type": "xsd:decimal"
+    },
+    "fuelLevel": {
+      "@id": "terex:fuelLevel",
+      "@type": "xsd:decimal"
+    },
+    "operatingStatus": {
+      "@id": "terex:operatingStatus",
+      "@type": "@vocab",
+      "@context": {
+        "operating": "terex:Operating",
+        "idle": "terex:Idle",
+        "offline": "terex:Offline",
+        "maintenance": "terex:InMaintenance"
+      }
+    },
+    "alertType": {
+      "@id": "terex:alertType",
+      "@type": "xsd:string"
+    },
+    "alertSeverity": {
+      "@id": "terex:alertSeverity",
+      "@type": "@vocab",
+      "@context": {
+        "info": "terex:Info",
+        "warning": "terex:Warning",
+        "critical": "terex:Critical"
+      }
+    },
+    "timestamp": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:dateTime"
+    }
+  }
+}
