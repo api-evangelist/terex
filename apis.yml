@@ -39,6 +39,8 @@ apis:
       - type: Portal
         url: https://my.terex.com
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/terex
   - type: Website
     url: https://www.terex.com/
   - type: Support
