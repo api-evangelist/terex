@@ -40,6 +40,8 @@ apis:
       - type: Portal
         url: https://my.terex.com
 common:
+  - type: DomainSecurity
+    url: security/terex-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/terex
   - type: Website
@@ -51,6 +53,8 @@ common:
   - type: Vocabulary
     url: >-
       https://raw.githubusercontent.com/api-evangelist/terex/refs/heads/main/vocabulary/terex-vocabulary.yml
+  - url: https://www.terex.com/news
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
