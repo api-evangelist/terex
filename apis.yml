@@ -7,6 +7,18 @@ description: >-
   fleet management, and predictive maintenance of construction and industrial
   equipment.
 type: Index
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 image: https://www.terex.com/content/dam/terex/logos/terex-logo.png
 tags:
   - Aerial Work Platforms
