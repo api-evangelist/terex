@@ -1,7 +1,9 @@
 ---
 title: Terex and REV Group Complete Merger
 url: https://www.linkedin.com/posts/terex_terex-and-rev-group-complete-merger-activity-7424103040326184960-LMch
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Terex" press release artificial intelligence'
 position: 5
 source: serpapi-google

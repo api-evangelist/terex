@@ -1,7 +1,9 @@
 ---
 title: Terex Corporation Standardizes 36 Websites ...
 url: https://www.progress.com/customers/terex-corporation-standardizes-sitefinity
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Terex" press release artificial intelligence'
 position: 4
 source: serpapi-google

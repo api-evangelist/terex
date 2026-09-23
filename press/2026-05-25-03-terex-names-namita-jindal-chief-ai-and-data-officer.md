@@ -1,7 +1,9 @@
 ---
 title: Terex Names Namita Jindal Chief AI & Data Officer
 url: https://www.prnewswire.com/news-releases/terex-names-namita-jindal-chief-ai--data-officer-302664604.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Terex" press release artificial intelligence'
 position: 3
 source: serpapi-google

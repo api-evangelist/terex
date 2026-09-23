@@ -1,7 +1,9 @@
 ---
 title: Terex Reports Fourth Quarter and Full-Year 2025 Results
 url: https://investors.terex.com/news/news-details/2026/Terex-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Terex" press release artificial intelligence'
 position: 2
 source: serpapi-google
