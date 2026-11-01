@@ -66,53 +66,113 @@
 
 Terex Corporation is a global manufacturer of aerial work platforms and materials processing equipment. Terex provides digital telematics solutions through its MyTerex platform and Connect by Terex for remote diagnostics, fleet management, and predictive maintenance of construction and industrial equipment.
 
-**Type:** company  
-**Website:** [https://www.terex.com/](https://www.terex.com/)
+**Areas:** Aerial Work Platforms · Construction Equipment · Fleet Management · Manufacturing · Materials Processing · Telematics · Fortune 500
 
-## Tags
+## Terex on APIs.io
 
-Aerial Work Platforms, Construction Equipment, Fleet Management, Manufacturing, Materials Processing, Telematics
+Everything profiled for Terex is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/terex/](https://apis.io/providers/terex/)** — or go straight to one of the APIs or properties below.
 
-## Products
+### APIs (1)
 
-- **Aerial Work Platforms** — Boom lifts, scissor lifts, telehandlers (Genie brand)
-- **Materials Processing** — Crushers, screeners, washing equipment (Powerscreen, Terex Finlay)
-- **Utilities** — Digger derricks, auger equipment (Terex Utilities)
+- [Terex Telematics API](https://apis.io/apis/terex/terex-telematics/) — Terex digital solutions including MyTerex fleet management, Connected Dealer Inventory (CDI), and telematics data access for real-time machine monitoring,…
 
-## Digital Solutions
+### Published properties
 
-- **MyTerex** — Dealer and customer portal with telematics data and eVentory
-- **Connect by Terex** — Mobile AR-assisted remote diagnostics
-- **Ask Terex** — AI-powered multilingual equipment support
-- **Connected Dealer Inventory (CDI)** — Telemetry-driven parts inventory optimization
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### JSON-LD (1)
 
-### Terex Telematics API
-MyTerex fleet management, Connected Dealer Inventory (CDI), and telematics data access for real-time machine monitoring, performance dashboards, and predictive maintenance.
+Linked-data contexts for the provider's vocabulary.
 
-- **Digital Solutions:** [https://www.terex.com/en/products-solutions/digital-solutions](https://www.terex.com/en/products-solutions/digital-solutions)
-- **Portal:** [https://my.terex.com](https://my.terex.com)
+- [Terex Context](https://apis.io/jsonld/terex/terex-context/)
 
-## JSON-LD
+#### Vocabulary (1)
 
-| Context | Description |
+The provider's domain terms, defined.
+
+- [Terex Vocabulary](https://apis.io/vocabularies/terex/terex-vocabulary/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Terex Domain Security](https://apis.io/security/terex/terex-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Terex Plans Pricing](https://apis.io/plans/terex/terex-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Terex Rate Limits](https://apis.io/rate-limits/terex/terex-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Terex Finops](https://apis.io/finops/terex/terex-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.terex.com/)
+- [Support](https://www.terex.com/utilities/en/support/technicalsupport)
+- [Blog](https://www.terex.com/news)
+
+## API Evangelist rating
+
+**Kin Score 16.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| [terex-context.jsonld](json-ld/terex-context.jsonld) | JSON-LD context for construction equipment and telematics concepts |
+| Discoverability | 57.1 |
+| Contract quality | 14.7 |
+| Contract governance | 13.6 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 7.9 |
 
-## Vocabulary
+**Agent readiness 0.6** — human-only
 
-| Vocabulary | Description |
+| Agent-readiness dimension | Result |
 |---|---|
-| [terex-vocabulary.yml](vocabulary/terex-vocabulary.yml) | Construction equipment and fleet management vocabulary |
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-## Links
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
 
-- **Support:** [https://www.terex.com/utilities/en/support/technicalsupport](https://www.terex.com/utilities/en/support/technicalsupport)
-- **Digital Solutions:** [https://www.terex.com/en/products-solutions/digital-solutions](https://www.terex.com/en/products-solutions/digital-solutions)
-- **Products:** [https://www.terex.com/en/products-solutions/equipment](https://www.terex.com/en/products-solutions/equipment)
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/terex/](https://apis.io/providers/terex/).
 
-## Maintainers
+## How this profile is made
 
-**FN:** Kin Lane  
-**Email:** kin@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Terex: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/terex/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
